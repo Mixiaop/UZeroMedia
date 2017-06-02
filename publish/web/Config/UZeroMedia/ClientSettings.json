@@ -1,0 +1,4 @@
+﻿{
+  Host: "http://localhost:7994",
+  SignatureKey: "UZeroMedia_Signature"
+}

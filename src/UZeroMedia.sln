@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UZeroMedia", "UZeroMedia\UZeroMedia.csproj", "{280DDADA-443D-48D2-B375-8BB14CCEFBE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UZeroMedia.EntityFramework", "UZeroMedia.EntityFramework\UZeroMedia.EntityFramework.csproj", "{EDACBDCF-62A6-4245-BEEE-BD484C46E271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UZeroMedia.SOA", "UZeroMedia.SOA\UZeroMedia.SOA.csproj", "{CAF24FC3-EEA7-42FD-AEB3-91DD8804FF0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UZeroMedia.Client", "UZeroMedia.Client\UZeroMedia.Client.csproj", "{00C54320-CE33-4201-A3A7-C30B122B8E5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{280DDADA-443D-48D2-B375-8BB14CCEFBE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280DDADA-443D-48D2-B375-8BB14CCEFBE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280DDADA-443D-48D2-B375-8BB14CCEFBE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280DDADA-443D-48D2-B375-8BB14CCEFBE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDACBDCF-62A6-4245-BEEE-BD484C46E271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDACBDCF-62A6-4245-BEEE-BD484C46E271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDACBDCF-62A6-4245-BEEE-BD484C46E271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDACBDCF-62A6-4245-BEEE-BD484C46E271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF24FC3-EEA7-42FD-AEB3-91DD8804FF0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF24FC3-EEA7-42FD-AEB3-91DD8804FF0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF24FC3-EEA7-42FD-AEB3-91DD8804FF0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF24FC3-EEA7-42FD-AEB3-91DD8804FF0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C54320-CE33-4201-A3A7-C30B122B8E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C54320-CE33-4201-A3A7-C30B122B8E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C54320-CE33-4201-A3A7-C30B122B8E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C54320-CE33-4201-A3A7-C30B122B8E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

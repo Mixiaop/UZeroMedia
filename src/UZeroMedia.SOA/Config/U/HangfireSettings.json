@@ -1,0 +1,3 @@
+﻿{
+	SqlServerConn: 'Data Source=120.132.57.7,1444;Initial Catalog=Youzy.Data;Persist Security Info=True;User ID=sa;Password=youzy.cn',
+}

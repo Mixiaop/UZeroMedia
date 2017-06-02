@@ -1,0 +1,11 @@
+﻿{
+	DefaultFromAddress: "sender@eagersoft.cn",
+	DefaultFromDisplayName: "优志愿",
+	SmtpHost: "smtp.exmail.qq.com",
+	SmtpPort: 25,
+	SmtpUsername: "sender@eagersoft.cn",
+	SmtpPassword: "youzy.cn200",
+	SmtpDomain: "",
+	EnableSsl: true,
+	UseDefaultCredentials: false
+}

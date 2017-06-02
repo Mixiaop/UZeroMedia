@@ -1,0 +1,14 @@
+2016-08-16 14:43:08,609 [12] U.Logging.ULog4netLogger - (null) - 未能找到路径“D:\!DotNet项目\优志愿2016\UZeroMedia\src\UZeroMedia.SOA\content\media\thumbs”的一部分。
+ http://localhost:7994/pictures/upload?inputcharset=utf-8&targetsize=0
+2016-08-16 14:51:08,074 [15] U.Logging.ULog4netLogger - (null) - 更新条目时出错。有关详细信息，请参阅内部异常。
+ http://localhost:7994/pictures/upload?inputcharset=utf-8&targetsize=0
+2016-08-16 14:53:07,066 [9] U.Logging.ULog4netLogger - (null) - 支持“UZeroMediaDbContext”上下文的模型已在数据库创建后发生更改。请考虑使用 Code First 迁移更新数据库(http://go.microsoft.com/fwlink/?LinkId=238269)。
+ http://localhost:7994/pictures/upload?inputcharset=utf-8&targetsize=0
+2016-08-16 14:54:11,252 [13] U.Logging.ULog4netLogger - (null) - 支持“UZeroMediaDbContext”上下文的模型已在数据库创建后发生更改。请考虑使用 Code First 迁移更新数据库(http://go.microsoft.com/fwlink/?LinkId=238269)。
+ http://localhost:7994/pictures/upload?inputcharset=utf-8&targetsize=0
+2016-08-16 14:55:12,558 [7] U.Logging.ULog4netLogger - (null) - 支持“UZeroMediaDbContext”上下文的模型已在数据库创建后发生更改。请考虑使用 Code First 迁移更新数据库(http://go.microsoft.com/fwlink/?LinkId=238269)。
+ http://localhost:7994/pictures/upload?inputcharset=utf-8&targetsize=0
+2016-08-16 14:57:41,497 [11] U.Logging.ULog4netLogger - (null) - 支持“UZeroMediaDbContext”上下文的模型已在数据库创建后发生更改。请考虑使用 Code First 迁移更新数据库(http://go.microsoft.com/fwlink/?LinkId=238269)。
+ http://localhost:7994/pictures/upload?inputcharset=utf-8&targetsize=0
+2016-08-16 15:01:14,014 [6] U.Logging.ULog4netLogger - (null) - 支持“UZeroMediaDbContext”上下文的模型已在数据库创建后发生更改。请考虑使用 Code First 迁移更新数据库(http://go.microsoft.com/fwlink/?LinkId=238269)。
+ http://localhost:7994/pictures/upload?inputcharset=utf-8&targetsize=0

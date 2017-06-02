@@ -1,0 +1,21 @@
+﻿{
+  ApplicationName: "UZeroMedia",
+  SOASignatureEnabled: 1,
+  SOASignatureKey: "UZeroMedia_Signature",
+  SOAExpiresTime: 5,
+  SOAHelpPath: "/Help",
+  SOAIntroduction:  "媒体文件的服务应用，功能包含（文件、图片上传及获取）",
+  PicturePath: "/content/media/pictures/",
+  PictureThumbPath: "/content/media/thumbs/",
+  FilePath: "/content/media/files/",
+  MaximumImageSize: 4000,
+  DefaultImageQuality: 100,
+  Location: "",
+  ShowLocation: "",
+  WmEnable: false,
+  WmPicturePath: "/content/images/youzy-wm-128.png",
+  WmPositions: 32,
+  WmScale: 20,
+  WmTransparency: 80,
+  WmOnlyLargerThen: 200
+}

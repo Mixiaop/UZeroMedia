@@ -1,0 +1,5 @@
+obj/
+bin/
+App_Data/Logs/
+_temp/
+*.suo

@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>U.Web.Api</name>
+    </assembly>
+    <members>
+        <member name="T:U.WebApi.Client.IUWebApiClient">
+            <summary>
+            Used to make requests to U based Web APIs.
+            </summary>
+        </member>
+        <member name="M:U.WebApi.Client.IUWebApiClient.PostAsync(System.String,System.Nullable{System.Int32})">
+            <summary>
+            Makes post request that does not get or return value.
+            </summary>
+            <param name="url">Url</param>
+            <param name="timeout">Timeout as milliseconds</param>
+        </member>
+        <member name="M:U.WebApi.Client.IUWebApiClient.PostAsync(System.String,System.Object,System.Nullable{System.Int32})">
+            <summary>
+            Makes post request that gets input but does not return value.
+            </summary>
+            <param name="url">Url</param>
+            <param name="input">Input</param>
+            <param name="timeout">Timeout as milliseconds</param>
+        </member>
+        <member name="M:U.WebApi.Client.IUWebApiClient.PostAsync``1(System.String,System.Nullable{System.Int32})">
+            <summary>
+            Makes post request that does not get input but returns value.
+            </summary>
+            <param name="url">Url</param>
+            <param name="timeout">Timeout as milliseconds</param>
+        </member>
+        <member name="M:U.WebApi.Client.IUWebApiClient.PostAsync``1(System.String,System.Object,System.Nullable{System.Int32})">
+            <summary>
+            Makes post request that gets input and returns value.
+            </summary>
+            <param name="url">Url</param>
+            <param name="input">Input</param>
+            <param name="timeout">Timeout as milliseconds</param>
+        </member>
+        <member name="M:U.WebApi.Client.IUWebApiClient.GetAsync``1(System.String,System.Nullable{System.Int32})">
+            <summary>
+            Makes get request that gets input and returns value.
+            </summary>
+            <typeparam name="TResult"></typeparam>
+            <param name="url"></param>
+            <param name="input"></param>
+            <param name="timeout"></param>
+            <returns></returns>
+        </member>
+        <member name="P:U.WebApi.Client.IUWebApiClient.BaseUrl">
+            <summary>
+            Base URL for all request. 
+            </summary>
+        </member>
+        <member name="P:U.WebApi.Client.IUWebApiClient.Timeout">
+            <summary>
+            Timeout value for all requests (used if not supplied in the request method).
+            Default: 90 seconds.
+            </summary>
+        </member>
+        <member name="P:U.WebApi.Client.IUWebApiClient.Cookies">
+            <summary>
+            Used to set cookies for requests.
+            </summary>
+        </member>
+        <member name="P:U.WebApi.Client.IUWebApiClient.RequestHeaders">
+            <summary>
+            Request headers.
+            </summary>
+        </member>
+        <member name="P:U.WebApi.Client.IUWebApiClient.ResponseHeaders">
+            <summary>
+            Response headers.
+            </summary>
+        </member>
+        <member name="T:U.WebApi.Client.URemoteCallException">
+            <summary>
+            This exception is thrown when a remote method call made and remote application send an error message
+            </summary>
+        </member>
+        <member name="P:U.WebApi.Client.URemoteCallException.ErrorInfo">
+            <summary>
+            Remote error information.
+            </summary>
+        </member>
+        <member name="M:U.WebApi.Client.UWebApiClient.GetAsync``1(System.String,System.Nullable{System.Int32})">
+            <summary>
+            Makes get request that gets input and returns value.
+            </summary>
+            <typeparam name="TResult"></typeparam>
+            <param name="url"></param>
+            <param name="input"></param>
+            <param name="timeout"></param>
+            <returns></returns>
+        </member>
+        <member name="T:U.WebApi.Filters.HandleExceptionAttribute">
+            <summary>
+            过滤属性：异常处理
+            </summary>
+        </member>
+        <member name="T:U.WebApi.Models.UResponseMessage">
+            <summary>
+            响应消息
+            </summary>
+        </member>
+        <member name="M:U.WebApi.Models.UResponseMessage.SetMessage(U.WebApi.Models.UResponseStatusCode)">
+            <summary>
+            设置自定义消息
+            </summary>
+            <param name="code"></param>
+        </member>
+        <member name="M:U.WebApi.Models.UResponseMessage.SetMessage(U.WebApi.Models.UResponseStatusCode,System.String)">
+            <summary>
+            设置自定义消息
+            </summary>
+            <param name="code"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:U.WebApi.Models.UResponseMessage.IsSuccess">
+            <summary>
+            是否成功
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:U.WebApi.Models.UResponseMessage.Code">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:U.WebApi.Models.UResponseMessage.Message">
+            <summary>
+            响应消息
+            </summary>
+        </member>
+        <member name="P:U.WebApi.Models.UResponseMessage.Timestamp">
+            <summary>
+            时间戳
+            </summary>
+        </member>
+        <member name="T:U.WebApi.Models.UResponseMessage`1">
+            <summary>
+            响应消息泛型实现
+            </summary>
+        </member>
+        <member name="P:U.WebApi.Models.UResponseMessage`1.TotalCount">
+            <summary>
+            总记录数
+            </summary>
+        </member>
+        <member name="P:U.WebApi.Models.UResponseMessage`1.ReturnedCount">
+            <summary>
+            返回的记录数
+            </summary>
+        </member>
+        <member name="P:U.WebApi.Models.UResponseMessage`1.Results">
+            <summary>
+            返回的结果集
+            </summary>
+        </member>
+        <member name="T:U.WebApi.Models.UResponseStatusCode">
+            <summary>
+            响应状态码
+            </summary>
+        </member>
+        <member name="F:U.WebApi.Models.UResponseStatusCode.RequestParameterIsWrong">
+            <summary>
+            请求参数有误
+            </summary>
+        </member>
+        <member name="F:U.WebApi.Models.UResponseStatusCode.Error">
+            <summary>
+            错误消息返回
+            </summary>
+        </member>
+        <member name="F:U.WebApi.Models.UResponseStatusCode.Ok">
+            <summary>
+            成功返回
+            </summary>
+        </member>
+        <member name="F:U.WebApi.Models.UResponseStatusCode.InternalServerError">
+            <summary>
+            发生了一般错误
+            </summary>
+        </member>
+        <member name="F:U.WebApi.Models.UResponseStatusCode.SystemClose">
+            <summary>
+            系统已关闭
+            </summary>
+        </member>
+        <member name="F:U.WebApi.Models.UResponseStatusCode.SignatureFailed">
+            <summary>
+            签名失败
+            </summary>
+        </member>
+        <member name="F:U.WebApi.Models.UResponseStatusCode.Unauthorized">
+            <summary>
+            身份授权失败
+            </summary>
+        </member>
+    </members>
+</doc>
