@@ -31,6 +31,20 @@ namespace UZeroMedia.Client.Services
                 postedFile.ContentLength, Signature.Create());
             return JsonConvert.DeserializeObject<UResponseMessage<FileDto>>(message);
         }
+
+        public UResponseMessage<FileDto> Upload(string fileName, byte[] steam, string contentType, int contentLength, SortedDictionary<string, string> parms = null)
+        {
+            if (parms == null)
+                parms = new SortedDictionary<string, string>();
+            var message = webClient.CreateRequestAsPost(
+                GetUrl("/files/upload"),
+                parms,
+                fileName,
+                steam,
+                contentType,
+                contentLength, Signature.Create());
+            return JsonConvert.DeserializeObject<UResponseMessage<FileDto>>(message);
+        }
         #endregion
 
         #region Gets

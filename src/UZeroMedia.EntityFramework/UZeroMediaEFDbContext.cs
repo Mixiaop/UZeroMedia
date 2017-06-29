@@ -18,7 +18,7 @@ namespace UZeroMedia.EntityFramework
         public UZeroMediaEFDbContext(string nameOrConnectionString)
             : base(UPrimeEngine.Instance.Resolve<DatabaseSettings>().SqlConnectionString)
         {
-
+            
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
