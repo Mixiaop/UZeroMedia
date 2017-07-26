@@ -1,7 +1,7 @@
 ﻿{
   ApplicationName: "UZeroMedia",
   SOASignatureEnabled: 1,
-  SOASignatureKey: "UZeroMedia_Signature",
+  SOASignatureKey: "YouzyMedia_Signature",
   SOAExpiresTime: 5,
   SOAHelpPath: "/Help",
   SOAIntroduction:  "媒体文件的服务应用，功能包含（文件、图片上传及获取）",

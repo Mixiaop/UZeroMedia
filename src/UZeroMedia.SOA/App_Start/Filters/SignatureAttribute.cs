@@ -31,7 +31,7 @@ namespace UZeroMedia.SOA.Filters
             {
                 #region 开启签名
                 string sign = ""; //获取的签名
-                var signObj = actionContext.Request.Headers.Where(x => x.Key == mediaSettings.SOASignatureKey).FirstOrDefault();
+                var signObj = actionContext.Request.Headers.Where(x => x.Key.ToLowerInvariant() == mediaSettings.SOASignatureKey.ToLowerInvariant()).FirstOrDefault();
                 if (signObj.Value != null)
                     sign = signObj.Value.FirstOrDefault();
 
