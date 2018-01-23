@@ -211,6 +211,7 @@ namespace UZeroMedia.SOA.Controllers
                 return error;
             }
         }
+       
 
         /// <summary>
         /// 图片裁剪处理，返回处理后的标识与地址
