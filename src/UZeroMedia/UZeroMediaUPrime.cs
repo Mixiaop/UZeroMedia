@@ -10,7 +10,7 @@ namespace UZeroMedia
        typeof(ULeadershipUPrime),
        typeof(UAutoMapperUPrime)
        )]
-    public class UZeroMediaUPrime : UPrime
+    public class UZeroMediaUPrime : U.UPrimes.UPrime
     {
         public override void Initialize()
         {

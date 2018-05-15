@@ -2,7 +2,7 @@
 
 namespace UZeroMedia.Services.Dto
 {
-    public class FileDto : IDto
+    public class FileDto : U.Application.Services.Dto.IDto
     {
         /// <summary>
         /// 文件Id

@@ -7,7 +7,7 @@ namespace UZeroMedia.Domain
     /// <summary>
     /// 代表一个上传的“文件”
     /// </summary>
-    public class File : Entity, IHasCreationTime
+    public class File : U.Domain.Entities.Entity, IHasCreationTime
     {
         public File()
         {

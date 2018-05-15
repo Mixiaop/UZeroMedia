@@ -7,7 +7,7 @@ namespace UZeroMedia.Services
     /// <summary>
     /// 网站转图片服务，如：将www.youzy.cn保存成一张图片
     /// </summary>
-    public interface IWebSiteToImageService : ITransientDependency
+    public interface IWebSiteToImageService : U.Dependency.ITransientDependency
     {
         /// <summary>
         /// 生成并返回一张Bitmap图

@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>UZeroMedia.SOA</RootNamespace>
     <AssemblyName>UZeroMedia.SOA</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -24,6 +24,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <Use64BitIISExpress />
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -93,9 +94,6 @@
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Routing" />
@@ -149,20 +147,23 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
+    <Reference Include="System.Xml.Serialization" />
     <Reference Include="U">
       <HintPath>..\packages\U\U.dll</HintPath>
-    </Reference>
-    <Reference Include="U.Extension.Collections">
-      <HintPath>..\packages\U\U.Extension.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="U.Extension.Core">
-      <HintPath>..\packages\U\U.Extension.Core.dll</HintPath>
     </Reference>
     <Reference Include="U.Utilities">
       <HintPath>..\packages\U\U.Utilities.dll</HintPath>
     </Reference>
     <Reference Include="U.Web.Api">
       <HintPath>..\packages\U\U.Web.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Extensions.Collection, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\UPrime\UPrime.Extensions.Collection.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Extensions.Core, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\UPrime\UPrime.Extensions.Core.dll</HintPath>
     </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
@@ -221,6 +222,13 @@
     <Compile Include="App_Start\UZeroMediaSoaUPrime.cs" />
     <Compile Include="Models\GetPictureUrlsInput.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_Tests\DrawingTests.aspx.cs">
+      <DependentUpon>DrawingTests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Tests\DrawingTests.aspx.designer.cs">
+      <DependentUpon>DrawingTests.aspx</DependentUpon>
+    </Compile>
     <Compile Include="_Tests\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -233,6 +241,8 @@
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Config\UZeroMedia\DatabaseSettings.json" />
     <Content Include="Config\U.Utilities\SqlServer\Database.config" />
+    <Content Include="_Tests\DrawingTests.aspx" />
+    <Content Include="_Tests\test.jpg" />
     <Content Include="_Tests\WebForm1.aspx" />
     <Content Include="Config\UZeroMedia\ClientSettings.json" />
     <None Include="Config\UZeroMedia\MediaSettings.json" />

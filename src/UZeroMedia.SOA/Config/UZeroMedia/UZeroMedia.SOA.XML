@@ -695,6 +695,15 @@
             目标尺寸（默认为0）
             </summary>
         </member>
+        <member name="F:UZeroMedia.SOA._Tests.DrawingTests.form1">
+            <summary>
+            form1 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
         <member name="F:UZeroMedia.SOA._Tests.WebForm1.form1">
             <summary>
             form1 控件。

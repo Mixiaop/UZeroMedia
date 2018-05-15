@@ -3,7 +3,7 @@
 namespace UZeroMedia.Configuration
 {
     [USettingsPathArribute("MediaSettings.json", "/Config/UZeroMedia")]
-    public class MediaSettings : USettings<MediaSettings>
+    public class MediaSettings : U.Settings.USettings<MediaSettings>
     {
         /// <summary>
         /// 当前 SOA 应用名称

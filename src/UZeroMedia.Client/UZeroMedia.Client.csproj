@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>UZeroMedia.Client</RootNamespace>
     <AssemblyName>UZeroMedia.Client</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -46,16 +47,18 @@
     <Reference Include="U">
       <HintPath>..\packages\U\U.dll</HintPath>
     </Reference>
-    <Reference Include="U.Extension.Core, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\U\U.Extension.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="U.Extension.Web">
-      <HintPath>..\packages\U\U.Extension.Web.dll</HintPath>
-    </Reference>
     <Reference Include="U.Web.Api, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\U\U.Web.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Extensions.Collection">
+      <HintPath>..\packages\UPrime\UPrime.Extensions.Collection.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Extensions.Core">
+      <HintPath>..\packages\UPrime\UPrime.Extensions.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Version">
+      <HintPath>..\packages\UPrime\UPrime.Version.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

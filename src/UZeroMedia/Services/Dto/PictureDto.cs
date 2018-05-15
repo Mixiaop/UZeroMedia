@@ -5,7 +5,7 @@ namespace UZeroMedia.Services.Dto
     /// <summary>
     /// 图片模型
     /// </summary>
-    public class PictureDto : IDto
+    public class PictureDto : U.Application.Services.Dto.IDto
     {
         public PictureDto()
         {

@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>UZeroMedia</RootNamespace>
     <AssemblyName>UZeroMedia</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -51,14 +52,17 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\U\U.AutoMapper.dll</HintPath>
     </Reference>
-    <Reference Include="U.Extension.Collections">
-      <HintPath>..\packages\U\U.Extension.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="U.Extension.Core">
-      <HintPath>..\packages\U\U.Extension.Core.dll</HintPath>
-    </Reference>
     <Reference Include="U.Utilities">
       <HintPath>..\packages\U\U.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Extensions.Collection">
+      <HintPath>..\packages\UPrime\UPrime.Extensions.Collection.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Extensions.Core">
+      <HintPath>..\packages\UPrime\UPrime.Extensions.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UPrime.Version">
+      <HintPath>..\packages\UPrime\UPrime.Version.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

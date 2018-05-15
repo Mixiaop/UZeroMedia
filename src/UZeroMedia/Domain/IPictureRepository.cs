@@ -5,7 +5,7 @@ namespace UZeroMedia.Domain
     /// <summary>
     /// 图片仓储服务接口
     /// </summary>
-    public interface IPictureRepository : IRepository<Picture, int>
+    public interface IPictureRepository : U.Domain.Repositories.IRepository<Picture, int>
     {
     }
 }

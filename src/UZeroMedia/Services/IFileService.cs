@@ -3,7 +3,7 @@ using UZeroMedia.Domain;
 
 namespace UZeroMedia.Services
 {
-    public interface IFileService : IApplicationService
+    public interface IFileService : U.Application.Services.IApplicationService
     {
         /// <summary>
         /// 获取文件Url

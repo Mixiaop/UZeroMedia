@@ -3,7 +3,7 @@ using U.UPrimes;
 
 namespace UZeroMedia.Client
 {
-    public class UZeroMediaClientUPrime : UPrime
+    public class UZeroMediaClientUPrime : U.UPrimes.UPrime
     {
         public override void Initialize()
         {

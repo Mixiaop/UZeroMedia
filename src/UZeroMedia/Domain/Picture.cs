@@ -7,7 +7,7 @@ namespace UZeroMedia.Domain
     /// <summary>
     /// 代表一张“图片”
     /// </summary>
-    public class Picture : Entity, IHasCreationTime
+    public class Picture : U.Domain.Entities.Entity, IHasCreationTime
     {
         public Picture() {
             SeoFilename = "";
